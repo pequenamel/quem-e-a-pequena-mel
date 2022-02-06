@@ -90,7 +90,7 @@ body{
         width: 200px;
         height: 250px;
         margin: 255px auto;
-        padding: 15px;
+        padding: 30px 25px;
         border: 10px groove rgb(170, 142, 197);
     }
 
@@ -102,6 +102,7 @@ body{
     #wrapper form{
         display: flex;
         flex-flow: column;
+        padding-bottom: 20px;
     }
 
     #wrapper a:not(:last-child){
@@ -115,5 +116,6 @@ body{
         width: 150px;
         padding: 30px 25px;
         margin: 240px auto;
+        height: 280px;
     }
 }
